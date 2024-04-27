@@ -5,22 +5,27 @@ Whisper Waves is a secure and efficient chat application built using Kotlin, Fir
 
 <h3>Secure Messaging:</h3>  
 Utilizes end-to-end encryption to ensure the privacy and security of user conversations.  
+
 <h3>Real-time Communication:</h3>  
 Powered by Firebase Realtime Database, enabling instant message delivery and updates.  
+
 <h3>Media Sharing:</h3>  
 Seamlessly share images and audios using Firebase Storage.  
+
 <h3>User Authentication:</h3>  
 Firebase Authentication ensures secure user login and registration processes.  
+
 <h3>Efficient Concurrency:</h3>  
 Utilizes Kotlin coroutines for efficient handling of asynchronous tasks, resulting in improved performance and responsiveness.  
+
 <h3>Enhanced UI:</h3>  
 Implements data binding to create a dynamic and intuitive user interface.  
 
 <h2>Screenshots</h2>  
-https://github.com/Alenaak/Whisper-waves/blob/master/Start_screen.png
-https://github.com/Alenaak/Whisper-waves/blob/master/Signup.pngenaak
-https://github.com/Alenaak/Whisper-waves/blob/master/Login.png
-https://github.com/Alenaak/Whisper-waves/blob/master/chat.png
+- [Start Screen](https://github.com/Alenaak/Whisper-waves/raw/master/Start_screen.png)  
+- [Signup](https://github.com/Alenaak/Whisper-waves/raw/master/Signup.png)  
+- [Login](https://github.com/Alenaak/Whisper-waves/raw/master/Login.png)  
+- [Chat](https://github.com/Alenaak/Whisper-waves/raw/master/chat.png)  
 
 <h2>Installation</h2>  
 
@@ -47,4 +52,3 @@ git clone https://github.com/your_username/whisper-waves.git
 <h2>Contributing</h2>  
 
 Contributions are welcome! Please fork the repository and create a pull request with your proposed changes.
-
