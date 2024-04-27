@@ -17,7 +17,10 @@ Utilizes Kotlin coroutines for efficient handling of asynchronous tasks, resulti
 Implements data binding to create a dynamic and intuitive user interface.  
 
 <h2>Screenshots</h2>  
-![Alt text](https://github.com/Alenaak/Whisper-waves/assets/131653812/4498a3b5-1758-4aad-a941-117bf052602d)
+https://github.com/Alenaak/Whisper-waves/blob/master/Start_screen.png
+https://github.com/Alenaak/Whisper-waves/blob/master/Signup.pngenaak
+https://github.com/Alenaak/Whisper-waves/blob/master/Login.png
+https://github.com/Alenaak/Whisper-waves/blob/master/chat.png
 
 <h2>Installation</h2>  
 
