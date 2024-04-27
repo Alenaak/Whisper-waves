@@ -12,10 +12,7 @@ Whisper Waves is a secure and efficient chat application built using Kotlin, Fir
 <h3>Enhanced UI:</h3> Implements data binding to create a dynamic and intuitive user interface.
 
 <h2>Screenshots</h2>
-![Start_screen](https://github.com/Alenaak/Whisper-waves/assets/131653812/465221ec-9915-439c-b6ae-01e488e8eacf)
-![Signup](https://github.com/Alenaak/Whisper-waves/assets/131653812/1852f9f8-cd3a-43ca-ba71-78d445d4abfb)
-![Login](https://github.com/Alenaak/Whisper-waves/assets/131653812/07fd80f0-cc72-46d3-aa6b-ee984d0d5031)
-![chat](https://github.com/Alenaak/Whisper-waves/assets/131653812/2a0f4312-dcb7-4eee-b161-14d5f30f789c)
+![Start_screen](https://github.com/Alenaak/Whisper-waves/assets/131653812/4bf40c29-a90f-4085-b1fd-2937c3455f84)
 
 
 
@@ -48,7 +45,5 @@ Whisper Waves is a secure and efficient chat application built using Kotlin, Fir
 
 Contributions are welcome! Please fork the repository and create a pull request with your proposed changes.
 
-<h2>License</h2>
 
-This project is licensed under the MIT License
 
