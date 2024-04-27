@@ -1,0 +1,45 @@
+package com.example.whisper_waves.ui
+
+import androidx.lifecycle.LiveData
+import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.ViewModel
+import com.example.whisper_waves.data.Event
+import com.example.whisper_waves.data.Result
+
+abstract class DefaultViewModel : ViewModel() {
+
+    protected val mSnackBarText = MutableLiveData<Event<String>>()
+    val snackBarText: LiveData<Event<String>> = mSnackBarText
+
+    private val mDataLoading = MutableLiveData<Event<Boolean>>()
+    val dataLoading: LiveData<Event<Boolean>> = mDataLoading
+
+    protected fun <T> onResult(mutableLiveData: MutableLiveData<T>? = null, result: Result<T>) {
+        when (result) {
+            is Result.Loading -> mDataLoading.value = Event(true)
+
+            //is Result.Error -> {
+               //mDataLoading.value = Event(false)
+              //result.msg?.let { mSnackBarText.value = Event(it) }
+              //}
+
+            is Result.Error -> {
+                mDataLoading.value = Event(false)
+
+                val errorMessage = result.msg ?: ""
+                val errorText = if (errorMessage.contains("email address is already in use")) {
+                    "Username already taken"
+                } else {
+                    errorMessage
+                }
+                mSnackBarText.value = Event(errorText)
+            }
+
+            is Result.Success -> {
+                mDataLoading.value = Event(false)
+               result.data?.let { mutableLiveData?.value = it }
+               // result.msg?.let { mSnackBarText.value = Event(it) }
+            }
+        }
+    }
+}
