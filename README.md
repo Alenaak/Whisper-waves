@@ -12,8 +12,7 @@ Whisper Waves is a secure and efficient chat application built using Kotlin, Fir
 <h3>Enhanced UI:</h3> Implements data binding to create a dynamic and intuitive user interface.
 
 <h2>Screenshots</h2>
-![Start_screen](https://raw.githubusercontent.com/Alenaak/Whisper-waves/main/assets/131653812/5223451d-59b5-4a1a-be0f-0e5eaf1ad2dd.jpg)
-
+![Start_screen](https://github.com/Alenaak/Whisper-waves/assets/131653812/fa2f8f43-33f1-456a-8f4b-d75102f0aabf)
 
 
 
