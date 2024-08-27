@@ -37,7 +37,7 @@ Implements data binding to create a dynamic and intuitive user interface.
 <h2>Installation</h2>  
 
 1. Clone the repository:  
-git clone https://github.com/your_username/whisper-waves.git
+git clone https://github.com/Alenaak/whisper-waves.git
 2. Open the project in Android Studio.  
 3. Connect the project to your Firebase project by following the Firebase setup instructions.  
 
